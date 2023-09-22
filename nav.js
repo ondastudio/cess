@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .from(".nav-button-line.is-2", { y: "0.5rem" }, "<")
       .to(".nav-button-line.is-1", { rotateZ: "90deg", delay: 0.25 }, "<")
       .to(".nav-button", { rotateZ: "45deg" }, "<")
-      .to(".mobile-nav", { height: "100vh" }, "<")
+      .to(".mobile-nav", { height: "100svh" }, "<")
       .from(
         navChildren,
         {
